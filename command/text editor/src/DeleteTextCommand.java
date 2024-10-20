@@ -3,7 +3,7 @@ public class DeleteTextCommand implements Command {
     private String deletedText;
     private int position;
 
-    public DeleteTextCommand(TextEditor editor, int length, int position) {
+    public DeleteTextCommand(TextEditor editor, int position, int length) {
         this.editor = editor;
         this.position = position;
         this.deletedText = editor.getTextSubstring(position, position + length);
