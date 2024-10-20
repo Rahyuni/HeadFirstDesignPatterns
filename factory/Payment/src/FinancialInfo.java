@@ -3,7 +3,10 @@ public class FinancialInfo {
     String payPalEmail;
     String bankAccountNumber;
 
-    public FinancialInfo(String creditCardNumber, String payPalEmail, String bankAccountNumber) {
+    public FinancialInfo(
+            String creditCardNumber,
+            String payPalEmail,
+            String bankAccountNumber) {
         this.creditCardNumber = creditCardNumber;
         this.payPalEmail = payPalEmail;
         this.bankAccountNumber = bankAccountNumber;
